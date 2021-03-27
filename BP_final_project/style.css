@@ -1,0 +1,128 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 전체 틀 */
+#drawingBook{
+  width: 750px; height: 550px;
+  border-radius: 2px;
+
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+/* 캔버스 */
+#canvas{
+  border-radius: 2px;
+}
+
+/* 전체 텍스트 */
+h3, p{
+  margin: 0px;
+  color: white;
+  text-align: left;
+}
+/* 개별 텍스트 */
+#title{
+  font-size: 19px;
+}
+#text{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* slider */
+.slider{
+  width: 100px; height: 30px;
+  cursor: pointer;
+}
+
+/* radio 버튼 */
+.radio{
+  font-size: 11px;
+  color: white;
+}
+  .radio input{
+    cursor: pointer;
+  }
+
+/* 전체 버튼 */
+.btn{
+  width: 25px; height: 25px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+  .btn:hover{
+    box-shadow: 0 0 20px #eee;
+  }
+  .btn:active{
+    transition: 0.24s ease;
+    border: 2px solid #fff;
+  }
+/* color 버튼 */
+.db{
+  background: rgb(0,0,0);
+}
+.rb{
+  background: rgb(255,0,0);
+}
+.yb{
+  background: rgb(255,255,0);
+}
+.gb{
+  background: rgb(0,153,0);
+}
+.bb{
+  background: rgb(6,17,242);
+}
+.pb{
+  background: rgb(128,0,127);
+}
+/* clear 버튼 */
+.cb{
+  width: 60px; height: 35px;
+  background: transparent;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  border-radius: 2px;
+  letter-spacing:1px;
+  text-shadow:0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+  .cb:active {
+    letter-spacing: 2px;
+  }
+/* mode 버튼 */
+.mode1{
+  width: 60px; height: 25px;
+  font-size: 10px;
+}
+.mode2{
+  width:50px; height:25px;
+  font-size: 10px;
+}
+/* Background Color 버튼 */
+.btn- {
+  width: 20px; height: 20px;
+  flex: 1 1 auto;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  .btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+  .btn-3 {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  }
+  .btn-4 {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
